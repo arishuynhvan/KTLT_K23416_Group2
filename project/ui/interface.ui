@@ -111,13 +111,7 @@
         <property name="spacing">
          <number>0</number>
         </property>
-        <property name="leftMargin">
-         <number>0</number>
-        </property>
         <property name="topMargin">
-         <number>0</number>
-        </property>
-        <property name="rightMargin">
          <number>0</number>
         </property>
         <property name="bottomMargin">
@@ -129,178 +123,29 @@
            <property name="spacing">
             <number>0</number>
            </property>
-           <property name="leftMargin">
-            <number>0</number>
-           </property>
-           <property name="topMargin">
-            <number>0</number>
-           </property>
-           <property name="rightMargin">
-            <number>0</number>
-           </property>
            <property name="bottomMargin">
             <number>0</number>
            </property>
            <item>
-            <widget class="QCustomQStackedWidget" name="welcome_stackedWidget">
-             <property name="styleSheet">
-              <string notr="true">#welcome_stackedWidget {
- background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 177, 43, 255), stop:0.971591 rgba(255, 255, 255, 0), stop:1 rgba(255, 255, 255, 0));
-  border-top-right-radius:200px;
-  border-bottom-right-radius:200px;
-}
-#welcome_stackedWidget *{
-	background-color:transparent;
-}</string>
-             </property>
-             <property name="currentIndex">
-              <number>1</number>
-             </property>
+            <widget class="QCustomQStackedWidget" name="wellcome_stackedWidget">
              <widget class="QWidget" name="left_login_page">
               <property name="styleSheet">
                <string notr="true"/>
               </property>
-              <layout class="QVBoxLayout" name="verticalLayout_14">
-               <property name="leftMargin">
-                <number>0</number>
-               </property>
-               <property name="rightMargin">
-                <number>0</number>
-               </property>
-               <item>
-                <widget class="QFrame" name="frame_3">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>0</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>16777215</height>
-                  </size>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true"/>
-                 </property>
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                 <widget class="QLabel" name="label_3">
-                  <property name="geometry">
-                   <rect>
-                    <x>150</x>
-                    <y>200</y>
-                    <width>131</width>
-                    <height>41</height>
-                   </rect>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <pointsize>15</pointsize>
-                   </font>
-                  </property>
-                  <property name="text">
-                   <string>RESTAURANT</string>
-                  </property>
-                 </widget>
-                </widget>
-               </item>
-              </layout>
              </widget>
-             <widget class="QWidget" name="left_signup_page">
-              <property name="styleSheet">
-               <string notr="true"/>
-              </property>
-              <layout class="QVBoxLayout" name="verticalLayout_15">
-               <property name="leftMargin">
-                <number>0</number>
-               </property>
-               <property name="rightMargin">
-                <number>0</number>
-               </property>
-               <item>
-                <widget class="QFrame" name="frame_4">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>0</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>16777215</height>
-                  </size>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true"/>
-                 </property>
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                 <widget class="QLabel" name="label_2">
-                  <property name="geometry">
-                   <rect>
-                    <x>150</x>
-                    <y>190</y>
-                    <width>61</width>
-                    <height>31</height>
-                   </rect>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <pointsize>15</pointsize>
-                   </font>
-                  </property>
-                  <property name="text">
-                   <string>Food</string>
-                  </property>
-                 </widget>
-                </widget>
-               </item>
-              </layout>
-             </widget>
+             <widget class="QWidget" name="left_signup_page"/>
             </widget>
            </item>
            <item>
             <widget class="QCustomQStackedWidget" name="login_signup_stackedWidget">
              <property name="cursor">
-              <cursorShape>ArrowCursor</cursorShape>
+              <cursorShape>PointingHandCursor</cursorShape>
              </property>
              <property name="currentIndex">
               <number>1</number>
              </property>
              <widget class="QWidget" name="right_login_page">
               <layout class="QVBoxLayout" name="verticalLayout_3">
-               <property name="topMargin">
-                <number>0</number>
-               </property>
-               <property name="rightMargin">
-                <number>0</number>
-               </property>
-               <property name="bottomMargin">
-                <number>0</number>
-               </property>
                <item alignment="Qt::AlignHCenter">
                 <widget class="QFrame" name="frame">
                  <property name="frameShape">
@@ -310,18 +155,6 @@
                   <enum>QFrame::Raised</enum>
                  </property>
                  <layout class="QVBoxLayout" name="verticalLayout_4">
-                  <property name="leftMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="topMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="rightMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="bottomMargin">
-                   <number>0</number>
-                  </property>
                   <item alignment="Qt::AlignHCenter">
                    <widget class="QLabel" name="login_photo_label">
                     <property name="minimumSize">
@@ -424,7 +257,7 @@
                          </size>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true"/>
+                         <string notr="true">border:1.5px solid #333; border-radius:8px;padding-left:30px</string>
                         </property>
                         <property name="placeholderText">
                          <string>Email or username</string>
@@ -440,7 +273,7 @@
                          </size>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true"/>
+                         <string notr="true">border:1.5px solid #333; border-radius:8px;padding-left:30px</string>
                         </property>
                         <property name="placeholderText">
                          <string>Password</string>
@@ -493,11 +326,8 @@
                           <height>30</height>
                          </size>
                         </property>
-                        <property name="cursor">
-                         <cursorShape>PointingHandCursor</cursorShape>
-                        </property>
                         <property name="styleSheet">
-                         <string notr="true"/>
+                         <string notr="true">background-color:#333;color:white</string>
                         </property>
                         <property name="text">
                          <string>LOG IN</string>
@@ -518,11 +348,8 @@
                           <height>30</height>
                          </size>
                         </property>
-                        <property name="cursor">
-                         <cursorShape>PointingHandCursor</cursorShape>
-                        </property>
                         <property name="styleSheet">
-                         <string notr="true"/>
+                         <string notr="true">background-color:#545454;color:white</string>
                         </property>
                         <property name="text">
                          <string>CREATE NEW ACCOUNT</string>
@@ -540,19 +367,7 @@
              </widget>
              <widget class="QWidget" name="right_signup_page">
               <layout class="QVBoxLayout" name="verticalLayout_13">
-               <property name="leftMargin">
-                <number>9</number>
-               </property>
-               <property name="topMargin">
-                <number>0</number>
-               </property>
-               <property name="rightMargin">
-                <number>0</number>
-               </property>
-               <property name="bottomMargin">
-                <number>0</number>
-               </property>
-               <item alignment="Qt::AlignHCenter">
+               <item>
                 <widget class="QFrame" name="frame_2">
                  <property name="frameShape">
                   <enum>QFrame::StyledPanel</enum>
@@ -564,14 +379,8 @@
                   <property name="spacing">
                    <number>0</number>
                   </property>
-                  <property name="leftMargin">
-                   <number>0</number>
-                  </property>
                   <property name="topMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="rightMargin">
-                   <number>0</number>
+                   <number>9</number>
                   </property>
                   <property name="bottomMargin">
                    <number>0</number>
@@ -621,7 +430,7 @@
                      </font>
                     </property>
                     <property name="text">
-                     <string>Create your account</string>
+                     <string>Welcome back...</string>
                     </property>
                     <property name="scaledContents">
                      <bool>true</bool>
@@ -637,7 +446,7 @@
                      <number>50</number>
                     </property>
                     <property name="topMargin">
-                     <number>0</number>
+                     <number>5</number>
                     </property>
                     <property name="rightMargin">
                      <number>50</number>
@@ -648,42 +457,30 @@
                     <item>
                      <layout class="QVBoxLayout" name="verticalLayout_11">
                       <property name="spacing">
-                       <number>6</number>
+                       <number>15</number>
                       </property>
                       <property name="sizeConstraint">
                        <enum>QLayout::SetMinimumSize</enum>
                       </property>
                       <property name="topMargin">
-                       <number>0</number>
+                       <number>15</number>
                       </property>
                       <property name="rightMargin">
                        <number>0</number>
                       </property>
                       <property name="bottomMargin">
-                       <number>15</number>
+                       <number>0</number>
                       </property>
                       <item>
                        <widget class="QLineEdit" name="full_name_lineEdit">
-                        <property name="sizePolicy">
-                         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                          <horstretch>0</horstretch>
-                          <verstretch>0</verstretch>
-                         </sizepolicy>
-                        </property>
                         <property name="minimumSize">
                          <size>
-                          <width>250</width>
-                          <height>25</height>
-                         </size>
-                        </property>
-                        <property name="maximumSize">
-                         <size>
-                          <width>250</width>
+                          <width>0</width>
                           <height>25</height>
                          </size>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true"/>
+                         <string notr="true">border:1.5px solid #333; border-radius:8px;padding-left:30px</string>
                         </property>
                         <property name="text">
                          <string/>
@@ -702,7 +499,7 @@
                          </size>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true"/>
+                         <string notr="true">border:1.5px solid #333; border-radius:8px;padding-left:30px</string>
                         </property>
                         <property name="placeholderText">
                          <string>Email or username</string>
@@ -718,7 +515,7 @@
                          </size>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true"/>
+                         <string notr="true">border:1.5px solid #333; border-radius:8px;padding-left:30px</string>
                         </property>
                         <property name="placeholderText">
                          <string>Password</string>
@@ -733,33 +530,30 @@
                        <number>6</number>
                       </property>
                       <property name="sizeConstraint">
-                       <enum>QLayout::SetMaximumSize</enum>
+                       <enum>QLayout::SetMinimumSize</enum>
                       </property>
                       <property name="topMargin">
-                       <number>15</number>
-                      </property>
-                      <property name="bottomMargin">
-                       <number>0</number>
+                       <number>25</number>
                       </property>
                       <item alignment="Qt::AlignHCenter">
                        <widget class="QPushButton" name="signup_button">
                         <property name="minimumSize">
                          <size>
                           <width>230</width>
-                          <height>30</height>
+                          <height>25</height>
                          </size>
                         </property>
                         <property name="maximumSize">
                          <size>
                           <width>230</width>
-                          <height>30</height>
+                          <height>25</height>
                          </size>
                         </property>
                         <property name="cursor">
                          <cursorShape>PointingHandCursor</cursorShape>
                         </property>
                         <property name="styleSheet">
-                         <string notr="true"/>
+                         <string notr="true">background-color:#545454;color:white</string>
                         </property>
                         <property name="text">
                          <string>CREATE NEW ACCOUNT</string>
@@ -771,20 +565,17 @@
                         <property name="minimumSize">
                          <size>
                           <width>230</width>
-                          <height>30</height>
+                          <height>25</height>
                          </size>
                         </property>
                         <property name="maximumSize">
                          <size>
                           <width>230</width>
-                          <height>30</height>
+                          <height>25</height>
                          </size>
                         </property>
-                        <property name="cursor">
-                         <cursorShape>PointingHandCursor</cursorShape>
-                        </property>
                         <property name="styleSheet">
-                         <string notr="true"/>
+                         <string notr="true">background-color:#bdbdbd;color:#333</string>
                         </property>
                         <property name="text">
                          <string>Already have an account? LOG IN</string>
@@ -885,7 +676,7 @@
            <item>
             <widget class="QStackedWidget" name="stackedWidget_12">
              <property name="currentIndex">
-              <number>2</number>
+              <number>3</number>
              </property>
              <widget class="QWidget" name="home_page">
               <widget class="QLabel" name="label_22">
@@ -1011,66 +802,6 @@
                     </property>
                    </widget>
                   </widget>
-                  <widget class="QWidget" name="add_review_restaurant_page">
-                   <widget class="QLabel" name="label_9">
-                    <property name="geometry">
-                     <rect>
-                      <x>0</x>
-                      <y>0</y>
-                      <width>351</width>
-                      <height>71</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <pointsize>16</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>Add new review for restaurant</string>
-                    </property>
-                   </widget>
-                  </widget>
-                  <widget class="QWidget" name="edit_review_restaurant_page">
-                   <widget class="QLabel" name="label_12">
-                    <property name="geometry">
-                     <rect>
-                      <x>0</x>
-                      <y>0</y>
-                      <width>341</width>
-                      <height>71</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <pointsize>16</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>Edit 1 review of a  restaurant</string>
-                    </property>
-                   </widget>
-                  </widget>
-                  <widget class="QWidget" name="review_restaurant_page">
-                   <widget class="QLabel" name="label_13">
-                    <property name="geometry">
-                     <rect>
-                      <x>0</x>
-                      <y>0</y>
-                      <width>341</width>
-                      <height>71</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <pointsize>16</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>List of restaurant reviews</string>
-                    </property>
-                   </widget>
-                  </widget>
                   <widget class="QWidget" name="menu_page">
                    <widget class="QLabel" name="label_27">
                     <property name="geometry">
@@ -1137,7 +868,7 @@
                      <rect>
                       <x>200</x>
                       <y>120</y>
-                      <width>481</width>
+                      <width>311</width>
                       <height>111</height>
                      </rect>
                     </property>
@@ -1147,47 +878,7 @@
                      </font>
                     </property>
                     <property name="text">
-                     <string>List of food reviews</string>
-                    </property>
-                   </widget>
-                  </widget>
-                  <widget class="QWidget" name="add_review_food_page">
-                   <widget class="QLabel" name="label_14">
-                    <property name="geometry">
-                     <rect>
-                      <x>0</x>
-                      <y>0</y>
-                      <width>451</width>
-                      <height>111</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <pointsize>30</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>Add new food review</string>
-                    </property>
-                   </widget>
-                  </widget>
-                  <widget class="QWidget" name="edit_review_food_page">
-                   <widget class="QLabel" name="label_15">
-                    <property name="geometry">
-                     <rect>
-                      <x>0</x>
-                      <y>0</y>
-                      <width>451</width>
-                      <height>111</height>
-                     </rect>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <pointsize>30</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>Edit 1 review of 1 food</string>
+                     <string>Review food</string>
                     </property>
                    </widget>
                   </widget>
