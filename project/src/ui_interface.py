@@ -538,8 +538,8 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.welcome_stackedWidget.setCurrentIndex(0)
-        self.login_signup_stackedWidget.setCurrentIndex(1)
+        self.welcome_stackedWidget.setCurrentIndex(1)
+        self.login_signup_stackedWidget.setCurrentIndex(0)
         self.body_stackedWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 

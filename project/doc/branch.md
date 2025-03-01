@@ -29,6 +29,7 @@
 > 2. Different size of top restaurant => add a new property into Restaurant collections: **thumbnail**
 
 ## profile
+> rebased main
 
 ## widget refactor
 > to load only the required widget not all widgets at the same time

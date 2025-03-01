@@ -1656,7 +1656,13 @@ PlotWidget {
 
 #profile_photo {
   border-radius: 45px;
-  border: 1.5px solid #333; }
+  border: 1px solid #333; }
+
+#left_login_page {
+  background-color: #339999; }
+
+#left_signup_page {
+  background-color: #66B2B2; }
 
 #left_login_page {
   background-color: #339999; }
